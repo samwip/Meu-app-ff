@@ -1,0 +1,47 @@
+body {
+  background-color: #1a0000;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  color: #ff0000;
+  text-shadow: 0 0 10px #ff0000;
+}
+
+.tiktok-message {
+  color: #ff6666;
+  font-size: 18px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #ff0066;
+  color: white;
+  font-size: 18px;
+  padding: 15px 40px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #ff0000;
+}
+
+button:hover {
+  background-color: #ff1a75;
+  box-shadow: 0 0 20px #ff1a75;
+}
